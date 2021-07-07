@@ -95,13 +95,13 @@ class LocationBar extends LitElement {
           </div>
           <div class="list">
             ${searchLink('Beaker', `beaker://desktop/?q=${encodeURIComponent(this.query)}`)}
-            ${searchLink('Twitter', `https://twitter.com/search?q=${encodeURIComponent(this.query)}`)}
-            ${searchLink('Reddit', `https://reddit.com/search?q=${encodeURIComponent(this.query)}`)}
+            // ${searchLink('Twitter', `https://twitter.com/search?q=${encodeURIComponent(this.query)}`)}
+            // ${searchLink('Reddit', `https://reddit.com/search?q=${encodeURIComponent(this.query)}`)}
             ${searchLink('GitHub', `https://github.com/search?q=${encodeURIComponent(this.query)}`)}
-            ${searchLink('DuckDuckGo', `https://duckduckgo.com?q=${encodeURIComponent(this.query)}`)}
-            ${searchLink('Google', `https://google.com/search?q=${encodeURIComponent(this.query)}`)}
-            ${searchLink('YouTube', `https://www.youtube.com/results?search_query=${encodeURIComponent(this.query)}`)}
-            ${searchLink('Wikipedia', `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(this.query)}`)}
+            // ${searchLink('DuckDuckGo', `https://duckduckgo.com?q=${encodeURIComponent(this.query)}`)}
+            // ${searchLink('Google', `https://google.com/search?q=${encodeURIComponent(this.query)}`)}
+            // ${searchLink('YouTube', `https://www.youtube.com/results?search_query=${encodeURIComponent(this.query)}`)}
+            // ${searchLink('Wikipedia', `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(this.query)}`)}
             ${''/* TODO restore at some point esearchLink('Beaker', `beaker://search/?q=${encodeURIComponent(this.query)}`) */}
           </div>
         </div>
